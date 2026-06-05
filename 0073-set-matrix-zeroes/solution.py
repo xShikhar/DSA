@@ -1,6 +1,5 @@
-class Solution(object):
-    def setZeroes(self, matrix):
-
+class Solution:
+    def setZeroes(self, matrix: List[List[int]]) -> None:
         row_zero = False
 
         for r in range(len(matrix)):
@@ -28,4 +27,3 @@ class Solution(object):
                 matrix[0][c] = 0
 
         return matrix
-
